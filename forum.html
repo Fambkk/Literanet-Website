@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Literanet - Forum Diskusi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="flex">
+
+  <!-- Sidebar -->
+  <aside class="w-48 fixed top-0 left-0 min-h-screen  bg-black shadow-md p-4 flex flex-col items-center overflow-y-auto">
+    <ul class="space-y-4 mt-6 text-left w-full">
+      <li><a href="index.html" class="text-white font-semibold hover:text-indigo-400">Beranda</a></li>
+    <li><a href="kategori.html" class="text-white font-semibold hover:text-indigo-400">Kategori</a></li>
+    <li><a href="forum.html" class="text-white font-semibold hover:text-indigo-400">Forum</a></li>
+    <li><a href="tentang.html" class="text-white font-semibold hover:text-indigo-400">Tentang</a></li>
+    </ul>
+  </aside>
+  
+  <!-- Main Content -->
+  <main class="ml-48 flex-1 p-6 bg-gray-100 min-h-screen">
+
+    <!-- Header -->
+    <div class="bg-cover bg-center rounded-xl p-6 mb-6" style="background-image: url('latarbelakang.jfif'); background-size: 800px;">
+      <img src="literanet.jpg" alt="Logo Literanet" class="w-24 h-24 rounded-full border-2 border-indigo-600" />
+    </div>
+
+    <!-- Forum Content -->
+    <div class="p-8">
+      <h1 class="text-3xl font-bold mb-6">Forum Diskusi</h1>
+      <p class="mb-8 text-gray-700">Bergabunglah dalam diskusi menarik seputar topik bacaan favoritmu!</p>
+
+      <div class="space-y-6">
+        <!-- Topik 1 -->
+        <div class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+          <h2 class="text-xl font-semibold mb-1">📘 Diskusi Novel</h2>
+          <p class="text-gray-600">Bagikan pandanganmu tentang alur cerita, karakter, dan pesan dari novel favoritmu.</p>
+          <button class="mt-2 text-indigo-600 hover:underline">Lihat Diskusi</button>
+        </div>
+
+        <!-- Topik 2 -->
+        <div class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+          <h2 class="text-xl font-semibold mb-1">💡 Buku Self Improvement</h2>
+          <p class="text-gray-600">Diskusikan tips dan pengalamanmu setelah membaca buku-buku pengembangan diri.</p>
+          <button class="mt-2 text-indigo-600 hover:underline">Lihat Diskusi</button>
+        </div>
+
+        <!-- Topik 3 -->
+        <div class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+          <h2 class="text-xl font-semibold mb-1">📰 Berita Terkini</h2>
+          <p class="text-gray-600">Berbagi pendapatmu tentang isu-isu terkini yang sedang hangat dibicarakan.</p>
+          <button class="mt-2 text-indigo-600 hover:underline">Lihat Diskusi</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-cover bg-center rounded-xl p-6 mt-auto" style="background-image: url('latarbelakang.jfif'); background-size: 800px;">
+      <footer class="text-center text-sm text-white">
+        &copy; 2025 Literanet. Dikembangkan oleh Kelompok 3 Manajemen Inovasi I9.
+      </footer>
+    </div>
+
+  </main>
+</body>
+</html>
